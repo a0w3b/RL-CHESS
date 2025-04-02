@@ -20,7 +20,7 @@ A chess game implementation that uses reinforcement learning to train an AI agen
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/RL-Chess.git
+git clone https://github.com/a0w3b/RL-CHESS.git
 cd RL-Chess
 ```
 
