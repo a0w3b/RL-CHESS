@@ -24,7 +24,7 @@ This project, **RL-Chess**, is a comprehensive chess game implementation designe
 - Python 3.9 or higher
 - CUDA-capable GPU (optional, but recommended for faster training)
 
-### Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -53,7 +53,7 @@ pip install -r requirements.txt
 python -c "import pygame; import chess; import torch; print('All packages installed successfully!')"
 ```
 
-### Project Structure
+## Project Structure
 .
 
 ├── pieces/
@@ -75,7 +75,7 @@ python -c "import pygame; import chess; import torch; print('All packages instal
 - `requirements.txt`: Project dependencies
 - `README.md`: Project documentation
 
-### Usage
+## Usage
 
 Run the main script to start training:
 ```bash
