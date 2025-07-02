@@ -1,4 +1,5 @@
 # Reinforcement Learning Chess Game
+![RL-CHESS](/rl-chess02.png)
 
 ## Summary
 
