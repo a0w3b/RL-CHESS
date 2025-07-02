@@ -19,12 +19,12 @@ This project, **RL-Chess**, is a comprehensive chess game implementation designe
   
 ![Flowchart](/RL-CHESS.png)
 
-## Prerequisites
+### Prerequisites
 
 - Python 3.9 or higher
 - CUDA-capable GPU (optional, but recommended for faster training)
 
-## Installation
+### Installation
 
 1. Clone the repository:
 ```bash
@@ -48,12 +48,12 @@ conda activate rl-chess
 ```bash
 pip install -r requirements.txt
 ```
-## Test
+### Test
 ```bash
 python -c "import pygame; import chess; import torch; print('All packages installed successfully!')"
 ```
 
-## Project Structure
+### Project Structure
 .
 
 ├── pieces/
@@ -75,7 +75,7 @@ python -c "import pygame; import chess; import torch; print('All packages instal
 - `requirements.txt`: Project dependencies
 - `README.md`: Project documentation
 
-## Usage
+### Usage
 
 Run the main script to start training:
 ```bash
@@ -88,7 +88,7 @@ The program will:
 3. Display the training progress in real-time
 4. Save model checkpoints after each episode
 
-## Training Details
+### Training Details
 
 - The neural network uses a CNN architecture with 3 convolutional layers
 - Training uses an epsilon-greedy exploration strategy
@@ -96,7 +96,7 @@ The program will:
 - Minimum epsilon: 0.01
 - Learning rate: 0.001
 
-## Model Architecture
+### Model Architecture
 
 The chess agent uses a CNN with the following structure:
 - Input: 12 channels (6 piece types × 2 colors)
@@ -110,6 +110,6 @@ The chess agent uses a CNN with the following structure:
 
 This project is open source and available under the MIT License.
 
-## Author
+### Author
 
 AnssiO 
