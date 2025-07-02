@@ -1,4 +1,4 @@
-# Reinforcement Learning chess-game / AnssiO
+# Reinforcement Learning chess-game / AnssiO 02/07/2025
 
 import pygame
 import chess
