@@ -1,9 +1,25 @@
 # RL-Chess: Reinforcement Learning Chess Game
-
-## Summary
 A chess game implementation that uses reinforcement learning to train an AI agent to play chess. The project combines PyTorch for the neural network, python-chess for the chess engine, and Pygame for the visual interface.
 
+## Summary
+This repository presents an implementation of a chess game where an AI agent learns to play using reinforcement learning. The project seamlessly integrates PyTorch for the deep neural network, the `python-chess` library for robust chess logic, and Pygame for an engaging visual interface.
+
+**Key Features:**
+
+- **Interactive Pygame Interface:** A clear and intuitive graphical representation of the chessboard for real-time visualization.
+    
+- **Deep Reinforcement Learning Agent:** Utilizes a Convolutional Neural Network (CNN) trained with a reinforcement learning approach to master chess strategies.
+    
+- **Epsilon-Greedy Exploration:** Employs an epsilon-greedy strategy to balance exploration of new moves and exploitation of learned knowledge during training. Epsilon decays over episodes, promoting more strategic play as training progresses.
+    
+- **Real-time Training Visualization:** Observe the agent's progress directly on the chessboard as it learns through each episode.
+    
+- **Automatic Model Saving:** The trained neural network model is automatically saved after every episode, allowing for progress tracking and resumption of training.
+    
+- **Modular Design:** Separated components for the Chess Environment, Chess Agent, and the Neural Network architecture.
+  
 ![Flowchart](/RL-CHESS.png)
+
 ## Features
 
 - Visual chess board interface using Pygame
