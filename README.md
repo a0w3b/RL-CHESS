@@ -55,19 +55,12 @@ python -c "import pygame; import chess; import torch; print('All packages instal
 
 ## Project Structure
 .
-
 ├── pieces/
-
 ├── README.md
-
 ├── RL-CHESS.png
-
 ├── RL-Chess.py
-
 ├── model_20250308_151925_episode_23.pth
-
 ├── requirements.txt
-
 └── rl-chess02.png
 
 - `RL-Chess.py`: Main game and training implementation
