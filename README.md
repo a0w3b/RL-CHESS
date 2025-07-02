@@ -1,33 +1,22 @@
-# RL-Chess: Reinforcement Learning Chess Game
-A chess game implementation that uses reinforcement learning to train an AI agent to play chess. The project combines PyTorch for the neural network, python-chess for the chess engine, and Pygame for the visual interface.
+# Reinforcement Learning Chess Game
 
 ## Summary
-This repository presents an implementation of a chess game where an AI agent learns to play using reinforcement learning. The project seamlessly integrates PyTorch for the deep neural network, the `python-chess` library for robust chess logic, and Pygame for an engaging visual interface.
 
-**Key Features:**
+This project, **RL-Chess**, is a comprehensive chess game implementation designed to train an AI agent using **reinforcement learning**. It leverages **PyTorch** for the deep neural network, the **python-chess** library for robust game logic, and **Pygame** for an interactive visual interface.
 
-- **Interactive Pygame Interface:** A clear and intuitive graphical representation of the chessboard for real-time visualization.
+### Key Features:
+
+- **Deep Reinforcement Learning Agent:** A Convolutional Neural Network (CNN) learns chess strategies through a reinforcement learning approach. It employs an **epsilon-greedy exploration** strategy, with epsilon decaying over episodes to balance exploring new moves and exploiting learned knowledge as training progresses.
     
-- **Deep Reinforcement Learning Agent:** Utilizes a Convolutional Neural Network (CNN) trained with a reinforcement learning approach to master chess strategies.
+- **Interactive Pygame Interface:** A clear and intuitive graphical representation of the chessboard allows for real-time visualization of gameplay and agent training.
     
-- **Epsilon-Greedy Exploration:** Employs an epsilon-greedy strategy to balance exploration of new moves and exploitation of learned knowledge during training. Epsilon decays over episodes, promoting more strategic play as training progresses.
+- **Real-time Training Visualization:** Observe the AI agent's progress directly on the chessboard as it learns through each episode.
     
-- **Real-time Training Visualization:** Observe the agent's progress directly on the chessboard as it learns through each episode.
+- **Automatic Model Saving:** The trained neural network model is automatically saved after every episode, enabling progress tracking and the resumption of training.
     
-- **Automatic Model Saving:** The trained neural network model is automatically saved after every episode, allowing for progress tracking and resumption of training.
-    
-- **Modular Design:** Separated components for the Chess Environment, Chess Agent, and the Neural Network architecture.
+- **Modular Design:** The project features separated components for the Chess Environment, Chess Agent, and the Neural Network architecture, promoting code clarity and maintainability.
   
 ![Flowchart](/RL-CHESS.png)
-
-## Features
-
-- Visual chess board interface using Pygame
-- Deep neural network-based chess agent
-- Reinforcement learning implementation
-- Real-time training visualization
-- Automatic model saving after each episode
-- Epsilon-greedy exploration strategy
 
 ## Prerequisites
 
